@@ -2,7 +2,7 @@
                 box-sizing: border-box;
             }
             body{
-                border-style:solid;
+                border-style: solid;
                 margin:auto;
                 width:1000px;
                 height: 1000px;
@@ -13,6 +13,7 @@
             }
             nav{
                 border-style:solid;
+                background-color: rgb(255, 222, 89);
                 width:1000px;
                 height:100px;
             }
@@ -25,4 +26,36 @@
                 border-style:solid;
                 width:1000px;
                 height:200px;
+            }
+            nav ul{
+                list-style-type: none;
+            }
+            nav ul li{
+                border-style:solid;
+                width: 150px;
+                border-width: 4px;
+                border-radius: 15px;
+                border-color:black;
+                background-color: rgb(236, 228, 228);
+                float:left;
+                padding: 10px;
+                margin-left:30px;
+                top:7px;
+                position:relative;
+                text-align: center;
+
+            }
+            nav ul a{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            nav ul a:link{
+                color:black;
+            }
+            nav ul a:visited{
+                color:darkblue;
+            }
+            nav ul a:hover{
+                color:red;
             }
