@@ -5,7 +5,7 @@
                 border-style: solid;
                 margin:auto;
                 width:1000px;
-                height: 1000px;
+                height: 1500px;
             }
             header{
                 width:1000px;
@@ -20,7 +20,7 @@
             article{
                 border-style:solid;
                 width:1000px;
-                height:500px;
+                height:1000px;
             }
             footer{
                 border-style:solid;
@@ -58,6 +58,15 @@
             }
             nav ul a:hover{
                 color:red;
+            }
+            article section {
+                max-width: 800px; 
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px; 
+                margin-bottom: 50px;
+                padding-left: 15px;
+                padding-right: 15px; 
             }
             article section h1{
                 text-align: center;
