@@ -94,11 +94,8 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
             }
-            article section table #green{
+            article section table .green{
                 color:green
-            }
-            article section table #darkviolet{
-                color:darkviolet
             }
             article section table #yellow{
                 color:darkgoldenrod
