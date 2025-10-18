@@ -1,14 +1,14 @@
-Statik Kişisel Portfolyo Sitesi
+Static Personal Portfolio Site
 
-## 🌟 Proje Özeti
-HTML5 ve CSS3 kullanılarak, kariyer hedeflerimi (Full-Stack ve AI/ML) ve teknik yetkinliklerimi sergilemek amacıyla oluşturulmuş tek sayfalık statik portfolyo.
+## 🌟 Project Summary
+A single-page static portfolio created using HTML5 and CSS3 to showcase my career goals (Full-Stack and AI/ML) and technical competencies.
 
-## ✨ Temel Hedefler ve Kazanımlar
-- **Semantik HTML5:** Modern ve erişilebilir sayfa yapısı oluşturmak.
-- **Temel CSS3:** Kutu modeli, layout (yerleşim) ve buton tasarımlarını uygulamak.
-- **Profesyonel Git Akışı:** Projenin başlangıcından itibaren (Toplam 11 anlamlı commit ile) düzenli ve temiz commit/push alışkanlığı kazanmak.
+## ✨ Key Goals and Achievements
+- **Semantic HTML5:** Creating a modern and accessible page structure.
+- **Basic CSS3:** Implementing the box model, layout, and button designs.
+- **Professional Git Flow:** Developing a regular and clean commit/push habit from the beginning of the project (with a total of 11 meaningful commits).
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - Git & GitHub
