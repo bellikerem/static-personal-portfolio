@@ -1,6 +1,18 @@
-            /*Genel Tasarımlar*/
-            /*************************/
-            /*************************/
+            /*********************
+
+                Author: Kerem Can Belli
+                File: style.css
+                Project: Static Personal Portfolio Website
+                Last Updated: November 2025
+
+            **********************/
+            
+            /*********************
+
+            * GENERAL DESIGN
+            * Base layout setup and global box-sizing settings.
+            
+            **********************/
             
             * {
                 box-sizing: border-box;
@@ -9,15 +21,26 @@
                 margin:auto;
                 width:1000px;
                 height: auto;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+
+            /*********************
+            
+            * HEADER DESIGN
+            
+            **********************/
+
             header{
                 width:1000px;
                 height:200px;
             }
             
-            /*Navigasyon (Menü) Tasarımı*/
-            /*************************/
-            /*************************/
+            /*********************
+
+            * NAVIGATOR DESIGN
+            * Horizontal navigation bar with hover and visited effects.
+            
+            **********************/
             
             nav{
                 border-style:solid;
@@ -30,21 +53,20 @@
             }
             nav ul li{
                 border-style:solid;
-                width: 118px;
+                width: 120px;
                 border-width: 4px;
                 border-radius: 15px;
                 border-color:black;
                 background-color: rgb(236, 228, 228);
                 float:left;
                 padding: 10px;
-                margin-left:30px;
+                margin-left:27.5px;
                 top:7px;
                 position:relative;
                 text-align: center;
 
             }
             nav ul a{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-weight: bold;
                 text-decoration: none;
             }
@@ -55,12 +77,17 @@
                 color:darkblue;
             }
             nav ul a:hover{
-                color:red;
+                color:darkgray;
             }
 
-            /*İçerik Kısmının Tasarımı*/
-            /*************************/
-            /*************************/
+            /*********************
+            
+            * ARTICLE DESIGN
+            
+            * Controls main content sections (About, Education, etc.)
+            * Uses consistent padding/margins for balanced readability.
+            
+            **********************/
 
             article{
                 border-style:solid;
@@ -68,6 +95,7 @@
                 width:1000px;
                 height:auto;
             }
+
             article section {
                 max-width: 800px; 
                 margin-left: auto;
@@ -77,47 +105,52 @@
                 padding-left: 15px;
                 padding-right: 15px; 
             }
+
             article section h1{
                 text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+
             article section h2{
                 text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+
             article section p{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
                 text-align: center;
             }
+
             article section ul li{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
             }
+
+            article section table ol li{
+                font-size: large;
+            }
+
             article section table .green{
                 color:green
             }
-            article section table #darkblue{
-                color:darkblue
-            }
+
             article section table h2{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
                 text-align: center;
             }
+
             article section table p{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
                 text-align: center;
             }
+
             article section table a{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: large;
             }
             
-            /*İletişim Kısmı Tasarımı*/
-            /*************************/
-            /*************************/
+            /*********************
+            
+            * FOOTER DESIGN
+            * Contact area + back-to-up link
+            
+            **********************/
             
             footer{
                 border-style:solid;
@@ -125,6 +158,13 @@
                 width:1000px;
                 height:auto;
             }
+
+            footer p{
+                font-size: large;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
             footer section{
                 max-width: 800px; 
                 margin-left: auto;
@@ -134,21 +174,21 @@
                 padding-left: 15px;
                 padding-right: 15px;
             }
+
             footer section h1{
                 text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
+
             footer section a{
                 float:right;
+                text-decoration: none;
             }
+
             footer section div{
                 height:auto;
             }
-            footer section div a h2{
-                font-size: larg;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-            }
-            footer #sayfa-ustune-cık{
+
+            footer #go-to-the-top-of-the-page{
                 display:block;
                 margin-left:auto;
                 margin-right:auto;
@@ -160,16 +200,18 @@
                 background-color:rgb(236, 228, 228);
                 width: 250px;
                 text-align:center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-weight: bold;
                 text-decoration: none;
             }
-            footer #sayfa-ustune-cık:link{
+
+            footer #go-to-the-top-of-the-page:link{
                 color:black;
             }
+
             footer #sayfa-ustune-cık:visited{
                 color:darkblue;
             }
+
             footer #sayfa-ustune-cık:hover{
-                color:red;
+                color:darkgray;
             }
