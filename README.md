@@ -41,6 +41,13 @@ This project represents my **first professional step in frontend development**, 
 
 ---
 
+## 🏁 Project Status
+✅ **Completed (Final Version - November 2025)**  
+All code reviewed, commented, and optimized.  
+No further updates planned unless for UI improvement or bug fix.
+
+---
+
 ## 👨‍💻 Developer  
 **Kerem Can Belli**  
 📧 [k.belli.eng@gmail.com](mailto:k.belli.eng@gmail.com)  
